@@ -207,3 +207,12 @@ li.completed span {
   text-decoration: line-through;
   opacity: 0.7;
 }
+
+@media(max-width: 425px){
+  html{
+    font-size: 50%;
+  }
+  .wrapper{
+    max-width: 42.5rem;
+  }
+}
